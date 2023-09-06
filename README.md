@@ -4,20 +4,6 @@ An implementation of [ERC 725](https://github.com/ethereum/EIPs/issues/725) and 
 
 Using [ERC 725](https://github.com/ethereum/EIPs/issues/725), a **Smart Contract** can protect function calls from being executed unless the **Sender** has a verified **Claim** from a trusted **Issuer**; e.g. build a mechanism into our Smart Contracts to only allow interactions from reputable people. ERC-725 allows for many more use-cases, such as multi-sig execution approvals and verification by contract call instead of key validation.
 
-## Issuer Services
-- [x] Live Demo: [https://identity.vboss.tech](https://identity.vboss.tech)
-- [x] Certifiers provides Issuer-Services: 
-  - [x] Has Phone
-  - [x] Has Email
-  - [x] [Has Facebook](https://developers.facebook.com/)
-  - [x] [Has Linked-in](https://developer.linkedin.com/)
-  - [x] [Has Google](https://console.cloud.google.com/apis/credentials)
-  - [x] [Has Github](https://github.com/settings/developers)
-  - [x] [Has Twitter](https://apps.twitter.com/) 
-
-- Meta-Mask Secret Backup Phrase: `rival alley punch barrel baby other taxi cannon pause achieve caution race`
-
-
 ## Explanation
 
 Imagine we want to deploy a Listing contract to sell a Airplane ticket, but only allow interactions from
